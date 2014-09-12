@@ -17,7 +17,7 @@ import requests_kerberos
 
 from keystoneclient.contrib.auth.v3 import kerberos
 from keystoneclient import session
-from keystoneclient.tests.auth import utils
+from keystoneclient.tests import utils
 
 
 class TestKerberosAuth(utils.V3AuthTestCase):
